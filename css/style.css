@@ -84,6 +84,10 @@ html {
   .navbar {
     width: 100%;
   }
+  .navbar .btn{
+    padding: 10px;
+    margin-right: 10px;
+  }
 }
 @media (min-width: 769px) and (max-width: 1270px) {
   .navbar .navbar-toggler {
@@ -1379,6 +1383,14 @@ footer .container .col form input[type=submit]{
 }
 footer .container .col form input[type=submit]:hover{
   background-color: var(--secondry-color);
+}
+@media(max-width:768px){
+  footer .container .col form input[type=email]{
+    flex: 0;
+  }
+  footer .container .col form input[type=submit]{
+    flex: 0;
+  }
 }
 /* footer  */
 /* copyright */
